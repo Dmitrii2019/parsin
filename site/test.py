@@ -47,7 +47,9 @@ def files_writer(jobs):
 
 print('PARSER.DA')
 password = input('Пароль: ')
+
 hooves = 1
+
 while password != '555':
     if hooves != 3:
         print('Не верный пароль')
